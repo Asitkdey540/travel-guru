@@ -11,7 +11,6 @@ const hotelDetail = [
 		ratings: 4.9,
 		totalRating: 20,
 		price: 34,
-		cords: { lat: 21.4171963, lng: 91.977232 },
 		img: "https://i.ibb.co/KXX7Wmn/travel-img-1.png",
 	},
 	{
@@ -26,7 +25,6 @@ const hotelDetail = [
 		ratings: 4.5,
 		totalRating: 15,
 		price: 52,
-		cords: { lat: 21.4172171, lng: 91.9772095 },
 		img: "https://i.ibb.co/w7NjLP1/travel-img-2.png",
 	},
 	{
@@ -41,7 +39,6 @@ const hotelDetail = [
 		ratings: 4.9,
 		totalRating: 25,
 		price: 44,
-		cords: { lat: 21.4172171, lng: 91.9772095 },
 		img: "https://i.ibb.co/wYMBf0w/travel-img-3.png",
 	},
 ];
