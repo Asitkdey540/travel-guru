@@ -1,0 +1,91 @@
+.thirdParty{
+    text-align: center;
+}
+
+.thirdParty .btn{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #c7c7c7;
+    border-radius: 58px;
+}
+
+.thirdParty .btn {
+	width: 350px;
+	margin: 0 auto;
+	height: 50px;
+	text-align: center;
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: baseline;
+	margin-top: 20px;
+}
+
+.thirdParty img{
+    margin-right: 10px;
+}
+
+.form-divider {
+	margin: 25px auto;
+	position: relative;
+	display: grid;
+	place-items: center;
+}
+
+.form-divider p {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 0;
+}
+
+.signinAndup{
+    padding: 100px 0;
+}
+
+.signinAndup .toggol-form{
+    max-width: 570px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    padding: 40px 50px;
+}
+
+.toggol-form .form-control{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    border: 0;
+    border-bottom: 1px solid #c5c5c5;
+    border-radius: 0;
+    padding-left: 0;
+    height: 45px;
+}
+
+.toggol-form .form-group{
+    margin-bottom: 34px;
+}
+
+.err-msg{
+    text-align: left;
+    color: red;
+}
+
+.toggol-form .form-group .forgot-pass {
+	display: flex;
+	justify-content: space-between;
+}
+
+.toggol-form .registered{
+    text-align: center;
+	margin-top: 20px;
+}
+
+/* .toggol-form .btn-logintoggle {
+	font-weight: normal;
+	color: var(--primary);
+	padding: 0;
+} */
+

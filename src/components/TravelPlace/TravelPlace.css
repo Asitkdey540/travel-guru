@@ -1,0 +1,68 @@
+.img-style {
+    position: relative;
+}
+
+.img-style h5{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.img-style img:hover {
+    border: 4px solid orange;
+    border-radius: 10px;
+}
+
+.booking-form {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.booking-form .form-control {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	background: #f2f2f2;
+	border-radius: 10px;
+	border: none;
+	height: 70px;
+}
+
+.destination .top-section h3 {
+    font-family: "Montaserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.top-section h4{
+    font-size: 15px;
+    line-height: 20px;
+    color: #302d2d;
+}
+
+.hotel-info .info h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.hotel-info .info p:not(.rating-style) {
+    font-size: 15px;
+    line-height: 20px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.hotel-info .info .rating-style{
+    margin-bottom: 0;
+}
+
+.hotel-info .info .rating-style > * {
+    margin-right: 25px;
+}
+
