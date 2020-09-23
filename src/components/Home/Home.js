@@ -30,7 +30,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-7">
                         <div className="main-images">
-                            <div className="row">
+                            <div className="detail row">
                                 {
                                     slideDetail.map(details => <TravelPlace detail={details}></TravelPlace>)
                                 }

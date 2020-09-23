@@ -3,8 +3,11 @@
     position: relative;
 	overflow: hidden;
 	color: white;
-	font-size: 20px
+	font-size: 20px;
 }
+
+.detail{
+	margin-top: 50px;}
 
 .main:before,
 .main:after {
