@@ -13,7 +13,6 @@ Travel Guru is a hotel booking site. Here people can book hotel for some wonderf
 - Hotel suggestion on final page
 
 ### Build With:
-
 1. React JS
 2. React Bootstrap
 3. React Router
