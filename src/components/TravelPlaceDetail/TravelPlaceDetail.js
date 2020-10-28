@@ -24,7 +24,7 @@ const TravelPlaceDetail = () => {
 					</div>
 					<div className="col-lg-6">
 						<div className="booking-form">
-							<div className="">
+							<div>
 								<div className="form-group">
 									<label>Origin</label>
 									<input type="text" className="form-control" placeholder="e.g Dhaka" />

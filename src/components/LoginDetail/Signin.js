@@ -13,6 +13,7 @@ import SignUpForm from './SignUpForm';
 const Signin = () => {
     const [newUser, setNewUser] = useState(false)
     const [signedInUser, setSignedInUser] = useContext(UserContext);
+    // console.log(signedInUser);
 
     const [currentUser, setCurrentUser] = useState({
         isSignedIn: false,
@@ -51,11 +52,13 @@ const Signin = () => {
             .catch(error => {
                 const newUser = { ...currentUser };
                 newUser.error = error.message;
-                newUser.success = false;
+                // newUser.success = false;
                 setSignedInUser(newUser);
                 console.error(error);
             })
     };
+
+
     const handleFacebookSignIn = () => {
         const fbProvider = new firebase.auth.FacebookAuthProvider();
         firebase.auth().signInWithPopup(fbProvider)
